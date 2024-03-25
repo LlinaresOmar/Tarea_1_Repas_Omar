@@ -21,4 +21,14 @@ class NumerosTest {
         assertEquals(1, Numeros.sonIguales(14, 55, 14));
     }
 
+    @Test
+    public void sonIguales4(){
+        assertEquals(1, Numeros.sonIguales(14, 55, 55));
+    }
+
+    @Test
+    public void sonIguales5(){
+        assertEquals(0, Numeros.sonIguales(329, 329, 329));
+    }
+
 }
