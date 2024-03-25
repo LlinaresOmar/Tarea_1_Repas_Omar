@@ -6,7 +6,7 @@ public class Numeros {
         int resultado;
         if (a == b && a==c){
             resultado = 0;
-        } else if (a == b || b == c){
+        } else if (a == b || b == c || a == c){
             resultado = 1;
         } else {
             resultado = 2;

@@ -10,4 +10,15 @@ class NumerosTest {
     }
 
 
+    @Test
+    public void sonIguales2(){
+        assertEquals(2, Numeros.sonIguales(14, 23, 27));
+    }
+
+
+    @Test
+    public void sonIguales3(){
+        assertEquals(1, Numeros.sonIguales(14, 55, 14));
+    }
+
 }
